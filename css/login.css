@@ -1,0 +1,88 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    height: 25rem;
+    border-radius: .7rem;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--second-color);
+    margin-top: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: .4rem;
+}
+
+form div {
+    display: block;
+    gap: .1rem;
+}
+
+label {
+    color: var(--light-color);
+    font-size: 1.1rem;
+}
+
+input {
+    width: 100%;
+    padding: .3rem;
+    border-radius: .3rem;
+    border: 0;
+    font-size: 1rem;
+}
+
+.fa-eye {
+    cursor: pointer;
+}
+
+#btn-login {
+    border: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: .3rem;
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    font-weight: 500;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#btn-login:hover {
+    transform: scale(1.1);
+}
+
+.alert-success, .alert-failed {
+    display: none;
+    position: absolute;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-top: .5rem;
+    font-weight: 500;
+}
+
+.alert-success {
+    background-color: var(--bg-success-color);
+    color: var(--success-color);
+}
+
+.alert-failed {
+    background-color: var(--bg-failed-color);
+    color: var(--failed-color);
+}
