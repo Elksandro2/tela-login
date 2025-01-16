@@ -41,7 +41,7 @@ code .
 
 ### 5. Execute o Live Server
 
-- Caso você execute o Live Server no diretório raiz (index.html) e abra o endereço http://127.0.0.1:5500/, navegue manualmente até http://127.0.0.1:5500/pages/login.html no navegador.
+- Caso você execute o Live Server no diretório raiz (index.html) e abra o endereço http://localhost:5500/, navegue manualmente até http://localhost:5500/pages/login.html no navegador ou clique no link que vai aparecer na página.
 
 ### Observação:
 - Este projeto utiliza Font Awesome para exibir o ícone de exibir/ocultar senha. Então é preciso estar conectado à internet para que os ícones sejam carregados corretamente.
