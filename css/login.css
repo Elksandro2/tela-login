@@ -86,3 +86,9 @@ input {
     background-color: var(--bg-failed-color);
     color: var(--failed-color);
 }
+
+@media (max-width: 450px) {
+    .login-container {
+        width: 90%;
+    }
+}
